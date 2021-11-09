@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2D4F8DDA273AA20C002A7BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F8DD9273AA20C002A7BF0 /* AppDelegate.swift */; };
 		2D4F8DDC273AA20C002A7BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F8DDB273AA20C002A7BF0 /* SceneDelegate.swift */; };
-		2D4F8DDE273AA20C002A7BF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F8DDD273AA20C002A7BF0 /* ViewController.swift */; };
 		2D4F8DE1273AA20C002A7BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4F8DDF273AA20C002A7BF0 /* Main.storyboard */; };
 		2D4F8DE3273AA20E002A7BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4F8DE2273AA20E002A7BF0 /* Assets.xcassets */; };
 		2D4F8DE6273AA20E002A7BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4F8DE4273AA20E002A7BF0 /* LaunchScreen.storyboard */; };
+		2D4F8DEE273AA757002A7BF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D4F8DED273AA757002A7BF0 /* GoogleService-Info.plist */; };
+		2D4F8DF1273AA877002A7BF0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D4F8DF0273AA877002A7BF0 /* FirebaseAnalytics */; };
+		2D4F8DF3273AA877002A7BF0 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 2D4F8DF2273AA877002A7BF0 /* FirebaseFirestoreSwift-Beta */; };
+		2D4F8DF5273AA877002A7BF0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2D4F8DF4273AA877002A7BF0 /* FirebaseAuth */; };
+		2D4F8DF7273AA877002A7BF0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D4F8DF6273AA877002A7BF0 /* FirebaseFirestore */; };
+		2D4F8DF9273AB323002A7BF0 /* SpotifyTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F8DF8273AB323002A7BF0 /* SpotifyTrackViewController.swift */; };
+		2D4F8DFB273ABC5E002A7BF0 /* Firebase Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F8DFA273ABC5E002A7BF0 /* Firebase Struct.swift */; };
+		2D4F8DFD273AC795002A7BF0 /* SpotifyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F8DFC273AC795002A7BF0 /* SpotifyTableViewController.swift */; };
+		2D4F8E00273AC7B6002A7BF0 /* SpotifyInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F8DFF273AC7B6002A7BF0 /* SpotifyInfoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D4F8DD6273AA20C002A7BF0 /* Swift Practice # 112 Firestore Read.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 112 Firestore Read.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4F8DD9273AA20C002A7BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D4F8DDB273AA20C002A7BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D4F8DDD273AA20C002A7BF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D4F8DE0273AA20C002A7BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D4F8DE2273AA20E002A7BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4F8DE5273AA20E002A7BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D4F8DE7273AA20E002A7BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4F8DED273AA757002A7BF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D4F8DF8273AB323002A7BF0 /* SpotifyTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTrackViewController.swift; sourceTree = "<group>"; };
+		2D4F8DFA273ABC5E002A7BF0 /* Firebase Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase Struct.swift"; sourceTree = "<group>"; };
+		2D4F8DFC273AC795002A7BF0 /* SpotifyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTableViewController.swift; sourceTree = "<group>"; };
+		2D4F8DFF273AC7B6002A7BF0 /* SpotifyInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyInfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4F8DF1273AA877002A7BF0 /* FirebaseAnalytics in Frameworks */,
+				2D4F8DF7273AA877002A7BF0 /* FirebaseFirestore in Frameworks */,
+				2D4F8DF5273AA877002A7BF0 /* FirebaseAuth in Frameworks */,
+				2D4F8DF3273AA877002A7BF0 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,27 @@
 		2D4F8DD8273AA20C002A7BF0 /* Swift Practice # 112 Firestore Read */ = {
 			isa = PBXGroup;
 			children = (
+				2D4F8DFE273AC798002A7BF0 /* TableView */,
 				2D4F8DD9273AA20C002A7BF0 /* AppDelegate.swift */,
 				2D4F8DDB273AA20C002A7BF0 /* SceneDelegate.swift */,
-				2D4F8DDD273AA20C002A7BF0 /* ViewController.swift */,
+				2D4F8DF8273AB323002A7BF0 /* SpotifyTrackViewController.swift */,
+				2D4F8DFA273ABC5E002A7BF0 /* Firebase Struct.swift */,
 				2D4F8DDF273AA20C002A7BF0 /* Main.storyboard */,
 				2D4F8DE2273AA20E002A7BF0 /* Assets.xcassets */,
 				2D4F8DE4273AA20E002A7BF0 /* LaunchScreen.storyboard */,
 				2D4F8DE7273AA20E002A7BF0 /* Info.plist */,
+				2D4F8DED273AA757002A7BF0 /* GoogleService-Info.plist */,
 			);
 			path = "Swift Practice # 112 Firestore Read";
+			sourceTree = "<group>";
+		};
+		2D4F8DFE273AC798002A7BF0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				2D4F8DFC273AC795002A7BF0 /* SpotifyTableViewController.swift */,
+				2D4F8DFF273AC7B6002A7BF0 /* SpotifyInfoTableViewCell.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,12 @@
 			dependencies = (
 			);
 			name = "Swift Practice # 112 Firestore Read";
+			packageProductDependencies = (
+				2D4F8DF0273AA877002A7BF0 /* FirebaseAnalytics */,
+				2D4F8DF2273AA877002A7BF0 /* FirebaseFirestoreSwift-Beta */,
+				2D4F8DF4273AA877002A7BF0 /* FirebaseAuth */,
+				2D4F8DF6273AA877002A7BF0 /* FirebaseFirestore */,
+			);
 			productName = "Swift Practice # 112 Firestore Read";
 			productReference = 2D4F8DD6273AA20C002A7BF0 /* Swift Practice # 112 Firestore Read.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +144,9 @@
 				Base,
 			);
 			mainGroup = 2D4F8DCD273AA20C002A7BF0;
+			packageReferences = (
+				2D4F8DEF273AA877002A7BF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2D4F8DD7273AA20C002A7BF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D4F8DE6273AA20E002A7BF0 /* LaunchScreen.storyboard in Resources */,
+				2D4F8DEE273AA757002A7BF0 /* GoogleService-Info.plist in Resources */,
 				2D4F8DE3273AA20E002A7BF0 /* Assets.xcassets in Resources */,
 				2D4F8DE1273AA20C002A7BF0 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4F8DDE273AA20C002A7BF0 /* ViewController.swift in Sources */,
+				2D4F8E00273AC7B6002A7BF0 /* SpotifyInfoTableViewCell.swift in Sources */,
+				2D4F8DF9273AB323002A7BF0 /* SpotifyTrackViewController.swift in Sources */,
 				2D4F8DDA273AA20C002A7BF0 /* AppDelegate.swift in Sources */,
+				2D4F8DFB273ABC5E002A7BF0 /* Firebase Struct.swift in Sources */,
 				2D4F8DDC273AA20C002A7BF0 /* SceneDelegate.swift in Sources */,
+				2D4F8DFD273AC795002A7BF0 /* SpotifyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +382,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D4F8DEF273AA877002A7BF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D4F8DF0273AA877002A7BF0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D4F8DEF273AA877002A7BF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2D4F8DF2273AA877002A7BF0 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D4F8DEF273AA877002A7BF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		2D4F8DF4273AA877002A7BF0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D4F8DEF273AA877002A7BF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2D4F8DF6273AA877002A7BF0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D4F8DEF273AA877002A7BF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D4F8DCE273AA20C002A7BF0 /* Project object */;
 }
